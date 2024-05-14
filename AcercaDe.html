@@ -1,39 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Acerca de - Wiki de Fútbol Soccer</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <!-- Estilos personalizados -->
-        <style>
-                body {
-                        font-family: 'Arial', sans-serif;
-                        color: #333;
-                        background-color: #f4f4f4;
-                }
-                .navbar, .footer {
-                        background-color: #fff;
-                }
-                .container {
-                        padding-top: 2rem;
-                }
-                .footer {
-                        padding: 1rem 0;
-                        text-align: center;
-                        margin-top: 2rem;
-                }
-        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de - Wiki de Fútbol Soccer</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!-- Barra de navegación -->
-<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="index.html">WikiFútbol</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- Contenido de la barra de navegación -->
+    <a class="navbar-brand" href="#">WikiFútbol</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <!-- Elementos de la barra de navegación -->
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
@@ -43,25 +28,25 @@
                 <a class="nav-link" href="articulos.html">Artículos</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="acerca.html">Acerca de</a>
+                <a class="nav-link" href="AcercaDe.html">Acerca de</a>
             </li>
-        </ul>
-    </div>
 </nav>
 
 <!-- Contenido principal -->
-<div class="container">
-        <h2>Acerca de</h2>
-        <p>Esta wiki es un proyecto desarrollado por [Nombre del Estudiante], para la materia [Nombre de la Materia] con el objetivo de documentar y compartir conocimientos sobre el fútbol soccer.</p>
-        <p>Aquí puedes hablar más sobre ti, tus intereses en el fútbol soccer y lo que esperas lograr con este proyecto.</p>
+<div class="container mt-4">
+    <h2 class="display-4">Acerca de</h2>
+    <p class="lead">Esta wiki es un proyecto desarrollado por [Nombre del Estudiante], para la materia [Nombre de la Materia] con el objetivo de documentar y compartir conocimientos sobre el fútbol soccer.</p>
+    <!-- Más información sobre ti y el proyecto -->
 </div>
 
 <!-- Pie de página -->
-<div class="footer">
+<footer class="footer bg-dark text-white mt-4">
+    <div class="container text-center py-3">
         <p>WikiFútbol © 2024. Todos los derechos reservados.</p>
-</div>
+    </div>
+</footer>
 
-<!-- Añade los scripts de Bootstrap y jQuery -->
+<!-- Scripts de Bootstrap y jQuery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
