@@ -1,37 +1,37 @@
-Proyecto: Wiki. 
-## Description
-This project is a wiki application that allows users to create and edit articles.
+Proyecto: Wiki de Fútbol.
+## Descripción
+Este proyecto es una aplicación de wiki que permite a los usuarios crear y editar artículos sobre fútbol.
 
-## Features
-- User authentication: Users can create accounts and log in to the application.
-- Article creation: Users can create new articles with a title and content.
-- Article editing: Users can edit existing articles.
-- Article search: Users can search for articles by title or content.
-- Article history: The application keeps track of the revision history for each article.
-- Markdown support: Articles can be written using Markdown syntax.
+## Características
+- Autenticación de usuarios: Los usuarios pueden crear cuentas e iniciar sesión en la aplicación.
+- Creación de artículos: Los usuarios pueden crear nuevos artículos con un título y contenido.
+- Edición de artículos: Los usuarios pueden editar artículos existentes.
+- Búsqueda de artículos: Los usuarios pueden buscar artículos por título o contenido.
+- Historial de artículos: La aplicación realiza un seguimiento del historial de revisiones de cada artículo.
+- Soporte de Markdown: Los artículos se pueden escribir utilizando la sintaxis de Markdown.
 
-## Technologies Used
+## Tecnologías utilizadas
 - Node.js
 - Express.js
 - MongoDB
-- Passport.js for authentication
-- Showdown.js for Markdown rendering
+- Passport.js para la autenticación
+- Showdown.js para la representación de Markdown
 
-## Installation
-1. Clone the repository.
-2. Install the dependencies using `npm install`.
-3. Set up the MongoDB connection in the `.env` file.
-4. Start the application using `npm start`.
+## Instalación
+1. Clona el repositorio.
+2. Instala las dependencias utilizando `npm install`.
+3. Configura la conexión de MongoDB en el archivo `.env`.
+4. Inicia la aplicación utilizando `npm start`.
 
-## Usage
-1. Register a new account or log in with an existing account.
-2. Create a new article by clicking on the "New Article" button.
-3. Edit an existing article by clicking on the "Edit" button.
-4. Search for articles using the search bar.
-5. View the revision history of an article by clicking on the "History" button.
+## Uso
+1. Registra una nueva cuenta o inicia sesión con una cuenta existente.
+2. Crea un nuevo artículo haciendo clic en el botón "Nuevo artículo".
+3. Edita un artículo existente haciendo clic en el botón "Editar".
+4. Busca artículos utilizando la barra de búsqueda.
+5. Ver el historial de revisiones de un artículo haciendo clic en el botón "Historial".
 
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+## Contribuciones
+¡Las contribuciones son bienvenidas! Por favor, haz un fork del repositorio y crea una pull request con tus cambios.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más información.
